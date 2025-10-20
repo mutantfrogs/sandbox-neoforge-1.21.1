@@ -9,5 +9,8 @@
   "sandbox.configuration.items": "Item List",
   "sandbox.configuration.logDirtBlock": "Log Dirt Block",
   "sandbox.configuration.magicNumberIntroduction": "Magic Number Text",
-  "sandbox.configuration.magicNumber": "Magic Number"
+  "sandbox.configuration.magicNumber": "Magic Number",
+
+  "key.sandbox.use_spyglass": "Use Spyglass",
+  "key.categories.sandbox": "Sandbox"
 }
