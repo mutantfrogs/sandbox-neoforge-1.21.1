@@ -1,8 +1,7 @@
 package com.mutantfrogs.sandbox;
 
-import com.mutantfrogs.sandbox.client.ClientEvenHandler;
+import com.mutantfrogs.sandbox.client.ClientEventHandler;
 import com.mutantfrogs.sandbox.client.KeyRegistry;
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -35,6 +34,6 @@ public class SandboxClient {
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
         Sandbox.LOGGER.info("HELLO FROM CLIENT SETUP");
-        NeoForge.EVENT_BUS.register(new ClientEvenHandler());
+        NeoForge.EVENT_BUS.register(new ClientEventHandler());
     }
 }

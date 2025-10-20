@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.sandbox.droopy_music_disc.desc"
+  },
+  "length_in_seconds": 210.0,
+  "sound_event": "sandbox:droopy"
+}

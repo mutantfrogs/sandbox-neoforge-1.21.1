@@ -1,16 +1,7 @@
 {
-  "itemGroup.sandbox": "Sandbox",
-  "block.sandbox.example_block": "Example Block",
-  "item.sandbox.example_item": "Example Item",
+  "item.sandbox.droopy_music_disc": "§bMusic Disc",
+  "item.sandbox.droopy_music_disc.desc": "C418 - droopy",
 
-  "sandbox.configuration.title": "Sandbox Configs",
-  "sandbox.configuration.section.sandbox.common.toml": "Sandbox Configs",
-  "sandbox.configuration.section.sandbox.common.toml.title": "Sandbox Configs",
-  "sandbox.configuration.items": "Item List",
-  "sandbox.configuration.logDirtBlock": "Log Dirt Block",
-  "sandbox.configuration.magicNumberIntroduction": "Magic Number Text",
-  "sandbox.configuration.magicNumber": "Magic Number",
-
-  "key.sandbox.use_spyglass": "Use Spyglass",
-  "key.categories.sandbox": "Sandbox"
+  "key.categories.sandbox": "Sandbox",
+  "key.sandbox.use_spyglass": "Use Spyglass"
 }
