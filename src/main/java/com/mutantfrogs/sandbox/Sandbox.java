@@ -1,6 +1,7 @@
 package com.mutantfrogs.sandbox;
 
 import com.mutantfrogs.sandbox.block.BlockRegistry;
+import com.mutantfrogs.sandbox.item.CreativeTabRegistry;
 import com.mutantfrogs.sandbox.item.ItemRegistry;
 import com.mutantfrogs.sandbox.sound.SoundRegistry;
 import net.minecraft.world.item.*;
@@ -47,8 +48,11 @@ public class Sandbox {
         // Note that this is necessary if and only if we want *this* class (Sandbox) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        // call register methods from mod classes
         BlockRegistry.register(modEventBus);
         ItemRegistry.register(modEventBus);
+        CreativeTabRegistry.register(modEventBus);
         SoundRegistry.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us

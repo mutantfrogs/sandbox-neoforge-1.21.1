@@ -2,6 +2,8 @@
   "item.sandbox.droopy_music_disc": "§bMusic Disc",
   "item.sandbox.droopy_music_disc.desc": "C418 - droopy",
 
+  "creative_tab.sandbox.all": "Sandbox",
+
   "key.categories.sandbox": "Sandbox",
   "key.sandbox.use_spyglass": "Use Spyglass"
 }
