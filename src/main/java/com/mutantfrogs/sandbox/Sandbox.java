@@ -1,6 +1,7 @@
 package com.mutantfrogs.sandbox;
 
 import com.mutantfrogs.sandbox.block.BlockRegistry;
+import com.mutantfrogs.sandbox.effect.EffectRegistry;
 import com.mutantfrogs.sandbox.item.CreativeTabRegistry;
 import com.mutantfrogs.sandbox.item.ItemRegistry;
 import com.mutantfrogs.sandbox.sound.SoundRegistry;
@@ -51,6 +52,7 @@ public class Sandbox {
 
         // call register methods from mod classes
         BlockRegistry.register(modEventBus);
+        EffectRegistry.register(modEventBus);
         ItemRegistry.register(modEventBus);
         CreativeTabRegistry.register(modEventBus);
         SoundRegistry.register(modEventBus);

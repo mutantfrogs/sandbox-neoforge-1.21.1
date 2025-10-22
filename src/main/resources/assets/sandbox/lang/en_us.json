@@ -1,8 +1,11 @@
 {
+  "creative_tab.sandbox.all": "Sandbox",
+
+  "effect.sandbox.charged": "Charged",
+
   "item.sandbox.droopy_music_disc": "§bMusic Disc",
   "item.sandbox.droopy_music_disc.desc": "C418 - droopy",
-
-  "creative_tab.sandbox.all": "Sandbox",
+  "item.sandbox.lightning_in_a_bottle": "§bLightning in a Bottle",
 
   "key.categories.sandbox": "Sandbox",
   "key.sandbox.use_spyglass": "Use Spyglass"
